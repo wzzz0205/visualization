@@ -1,7 +1,7 @@
 <!-- 数据云图 -->
 <template>
   <div>
-    <div>【关键词条】</div>
+    <div class="text-lg">【关键词条】</div>
     <div ref="target" class="w-full h-full"></div>
   </div>
 </template>

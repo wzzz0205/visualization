@@ -22,7 +22,10 @@
         :data="data.totalData"
       ></TotalData>
       <!-- 地图可视化 -->
-      <MapChart class="bg-opacity-5 bg-blue-500 p-3 mt-2 flex-1"></MapChart>
+      <MapChart
+        class="bg-opacity-5 bg-blue-500 p-3 mt-2 flex-1"
+        :data="data.mapData"
+      ></MapChart>
     </div>
     <!-- 右 -->
     <div class="flex-1 bg-opacity-5 bg-blue-600 p-3 flex flex-col">
